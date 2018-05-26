@@ -20,6 +20,7 @@
   "homepage": "https://github.com/SigmundurMorkore/GraphQLAPI#readme",
   "dependencies": {
     "hapi": "^17.5.0",
+    "mongoose": "^5.1.2",
     "nodemon": "^1.17.5"
   }
 }
