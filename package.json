@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/SigmundurMorkore/GraphQLAPI/issues"
   },
-  "homepage": "https://github.com/SigmundurMorkore/GraphQLAPI#readme"
+  "homepage": "https://github.com/SigmundurMorkore/GraphQLAPI#readme",
+  "dependencies": {
+    "hapi": "^17.5.0",
+    "nodemon": "^1.17.5"
+  }
 }
