@@ -1,4 +1,13 @@
 const hapi = require("hapi")
+const mongoose = require("mongoose")
+
+mongoose.connect(
+  "mongodb://sigmundur:Testing1234@ds237620.mlab.com:37620/graphql"
+)
+
+mongoose.connection.once("open", () => {
+  console.log("Connected to database")
+})
 
 const server = hapi.server({
   port: 4000,
